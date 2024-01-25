@@ -6,20 +6,25 @@
     <title>Pharma Registration Page</title> 
     <link href="HTMLs/assets/css/style.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="HTMLs/registration.html">
-     Registration
-    </a>
-    <a class="navbar-brand" href="HTMLs/chemicalusage.html">
-       Chemical Usage
-    </a>
+<body> 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid"> 
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="HTMLs/registration.html"> Registration</a>
+        </li>
+        <li class="nav-item"> 
+            <a class="nav-link" href="HTMLs/chemicalusage.html"> Chemical Usage </a>
+        </li> 
+      </ul>
+    </div>
   </div>
 </nav>
+ 
     <div class="container centerMainDiv bgColor p-3 shadow-sm rounded mt-5 ">
         <div class="logo text-center mb-3">
-            <img src="assets/images/logo.PNG" width="150px" height="auto" alt="Logo">
+            <img src="HTMLs/assets/images/logo.PNG" width="150px" height="auto" alt="Logo">
         </div>
         <h5 class="h5 text-center">Registration Form </h5>
 
@@ -29,9 +34,7 @@
                     <div class="mb-3">
                         <label for="chemicalName" class="form-label">Select Chemical Name</label>
                         <input type="text" class="form-control" id="chemicalName" placeholder="">
-                      </div>
-                      
-
+                      </div> 
                       <div class="row mb-3">
                         <div class="col-7"> 
                                 <label for="uniqcode" class="form-label">Unique Code</label>
@@ -51,10 +54,8 @@
                                 <label for="receivedOn" class="form-label">Received On</label>
                                 <input type="date" class="form-control" id="receivedOn" placeholder=" "> 
                         </div>
-                      </div>
-                      
-                </div>
- 
+                      </div> 
+                </div> 
                 <div class="d-grid gap-2 mb-3 mt-4"> 
                     <button class="btn btn-primary  btn-sm" type="button">Submit</button>
                   </div>
